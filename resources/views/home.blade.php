@@ -10,6 +10,11 @@
 </head>
 
 <body class="bg-dark">
+    <header>
+        <h1 class="text-danger text-center mt-5 mb-0">
+            LARAVEL-MODEL-CONTROLLER
+        </h1>
+    </header>
     <main class="container my-5">
         <div class="row row-cols-5 g-5">
             @foreach ($movies as $movie)
